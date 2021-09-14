@@ -23,6 +23,7 @@
             <div class="navbar-end">
                 <a class="navbar-item {% if page.layout == 'default' %}is-active{% endif %}"
                     href="{% if page.layout == 'default' %}{{site.url}}{{site.baseurl}}/#{% else %}{{site.url}}{{site.baseurl}}/{% endif %}">HOME</a>
+                {% include dropdown-demeure.html %}
                 {% include dropdown.html %}
                 <a class="navbar-item" href="{{site.url}}{{site.baseurl}}/blog/in-situ">in situ</a>
                 <a class="navbar-item" href="{{site.url}}{{site.baseurl}}/blog/pratiquer">pratiquer</a>
