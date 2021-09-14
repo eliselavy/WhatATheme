@@ -3,8 +3,8 @@
         infos
     </a>
     <div class="navbar-dropdown has-background-black is-left">
-        <a class="navbar-item" href="{{site.url}}{{site.baseurl}}/#contact">contacts</a>
-        <a class="navbar-item" href="{{site.url}}{{site.baseurl}}/blog/partenaires">partenaires</a>
+        <a class="navbar-item has-text-grey-light {% if page.url == sitepage.url | absolute_url  %}is-active{% endif %}" href="{{site.url}}{{site.baseurl}}/#contact">contacts</a>
+        <a class="navbar-item has-text-grey-light {% if page.url == sitepage.url | absolute_url  %}is-active{% endif %}" href="{{site.url}}{{site.baseurl}}/blog/partenaires">partenaires</a>
         <!-- <hr class="navbar-divider">
     <a class="navbar-item">
       Report an issue
