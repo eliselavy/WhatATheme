@@ -9,7 +9,7 @@ baseurl:
 # Title of the Site
 title: demeure drue
 # Description of the Site
-description: est un tandem choréographique
+description: compagnie chorégraphique
 # URL of Image of the Site
 site-image: /demeuredrue/assets/images/meta.jpg
 # Keywords of the Site
@@ -42,9 +42,9 @@ google-analytics: UA-163806439-1
 disqus-shortname: thedevslot
 
 # Name of the Author
-author-name: La demeure drue
+author-name: demeure drue
 # URL for the Image of the Author
-author-image: https://raw.githubusercontent.com/eliselavy/demeuredrue/develop/assets/images/logo.png
+author-image: https://raw.githubusercontent.com/eliselavy/demeuredrue/develop/assets/images/logo.gif
 # 60 Words About the Author
 author-about: À travers ses explorations et expérimentations artistiques, demeure drue questionne la porosité des frontières entre le vivant et le non vivant, le dehors et le dedans, le visible et l’invisible, le sujet et l’objet. Elle met le corps poétique au cœur des situations, dans ses dimensions chorégraphiques, dramaturgiques, scéniques, performatives et plastiques.
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
